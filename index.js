@@ -1,7 +1,7 @@
 const mongoose = require("mongoose"); //installation of mongoose
 const express = require("express"); //installation of express
 const cors = require("cors"); // installlation of cors-cross  origin resource sharing
-const studentRoutes = require("../backend/controller/studentRoutes");
+const studentRoutes = require("./controller/studentRoutes");
 const app = express(); //instansiation
 
 mongoose.set("strictQuery", true); //to make entries case sensitive
